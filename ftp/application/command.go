@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ommadawn46/the_go_programming_language-training/ch08/ex02/ftp/util"
+	"github.com/ommadawn46/gotfp/ftp/util"
 )
 
 type Attribute int

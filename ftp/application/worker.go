@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ommadawn46/the_go_programming_language-training/ch08/ex02/ftp/usermanager"
+	"github.com/ommadawn46/gotfp/ftp/usermanager"
 )
 
 type TransferType int

@@ -6,10 +6,10 @@ import (
 	"net"
 	"strings"
 
-	app "github.com/ommadawn46/the_go_programming_language-training/ch08/ex02/ftp/application"
-	pre "github.com/ommadawn46/the_go_programming_language-training/ch08/ex02/ftp/presentation"
-	"github.com/ommadawn46/the_go_programming_language-training/ch08/ex02/ftp/usermanager"
-	"github.com/ommadawn46/the_go_programming_language-training/ch08/ex02/ftp/util"
+	app "github.com/ommadawn46/gotfp/ftp/application"
+	pre "github.com/ommadawn46/gotfp/ftp/presentation"
+	"github.com/ommadawn46/gotfp/ftp/usermanager"
+	"github.com/ommadawn46/gotfp/ftp/util"
 )
 
 func ListenAndServe(addr, rootDir, passwdPath string) error {
