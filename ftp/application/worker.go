@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ommadawn46/gotfp/ftp/usermanager"
+	"github.com/ommadawn46/goftp/ftp/usermanager"
 )
 
 type TransferType int

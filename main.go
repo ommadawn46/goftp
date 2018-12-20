@@ -6,8 +6,8 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/ommadawn46/gotfp/ftp"
-	"github.com/ommadawn46/gotfp/ftp/usermanager"
+	"github.com/ommadawn46/goftp/ftp"
+	"github.com/ommadawn46/goftp/ftp/usermanager"
 )
 
 var portFlag *int = flag.Int("port", 21, "listening port")

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ommadawn46/gotfp/ftp/util"
+	"github.com/ommadawn46/goftp/ftp/util"
 )
 
 type Attribute int
